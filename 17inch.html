@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>In-Room Safes</title>
+  <meta name="description" content="Select a custom safe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="17inch.css">
+  <script src="safe-choise.js"></script>
+</head>
+<body>
+  <header id="mainheader">
+    <div id="container">
+      <img src="images/Safemark_Logo_TM.png" alt="">
+    </div>
+    <div id="container1">
+      <div class="parent">
+        <img id="image1" src="images/Secure-Banner3-1920x671-1.jpg" height="400" width="100%" alt="">
+        <img id="image2" src="images/cropped-logo-1.png" alt="">
+      </div>
+    </div><!--end container1-->
+  </header><!--end mainheader-->
+  <div style="width: 100%; margin-left: auto; margin-right: auto; margin-bottom: 30px;">
+  <main>
+    <div class="menu">
+      <h2>17" LAPTOP SAFES</h2>
+    </div>
+    <hr style="width:15%; height: 2px; border: none; background-color: rgba(255, 166, 0, 0.521);float: left; margin-left: 20px;">
+    <br>
+    <div class="article">
+      <p>
+        Safemark’s 17” laptop safes were designed to accommodate guests who
+        travel with larger and/or multiple valuables. This safe series not 
+        only holds 17” laptops, but also has plenty of room to store purses, 
+        cameras, tablets, cell phones, and many other travel accessories.
+      </p>
+    </div ><!--end article-->
+    <br>
+    <div class="box">
+      <div class="blue">
+        <img src="images/17E5.1.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>E 5.1 Guest Room Safe</h2>
+        <p>
+            The E 5.1 in-room safe is found throughout the hospitality 
+            industry and often specified as a brand standard or requirement. 
+            Large enough to secure 17″ laptops and more, this safe can be installed 
+            in closets, case goods, or on color-matching pedestals.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio"name="Hinging_6" value="E5_1R" />Right</label>
+            <label><input type="radio" name="Hinging_6" value="E5_1L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_6" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_6" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_6" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_6" value="B" />Black</label>
+            <label><input type="radio" name="color_6" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/17EN5.3.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>EN 5.3 Guest Room Safe</h2>
+        <p>
+            The sleek EN 5.3 provides hotels with an aesthetically 
+            pleasing safe that easily blends with the guest room décor. 
+            Guests will appreciate the roomy design to store their 17” laptops, 
+            purses, cameras, tablets and much more.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_7" value="EN5_3R" />Right</label>
+            <label><input type="radio" name="Hinging_7" value="EN5_3L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_7" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_7" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_7" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_7" value="B" />Black</label>
+            <label><input type="radio" name="color_7" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/17DP5.3.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>DP 5.3 Drawer Pull-Safe</h2>
+        <p>
+            Designed for case good installations, Safemark’s 
+            Drawer-Pullout DP 5.3 provides the ultimate guest experience 
+            with advanced glides for effortless use. Your guests will 
+            have quick, top access to their valuables along with an integrated 
+            keypad that is both tilted and illuminated for easy viewing.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_8" value="DP5_3F" />Top</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_8" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_8" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_8" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_8" value="B"n />Black</label>
+            <label><input type="radio" name="color_8" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/17WX5.0-in-wall.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>WX 5.0 In-Wall Safe</h2>
+        <p>
+          Compact, rugged and affordable, Safemark’s Tribute series 
+          affirms that good things come in small packages. Built for 
+          today’s popular electronic companions, the T 4.0 is designed to easily 
+          accommodate tablets, smart phones, 15” laptops and more.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_9" value="WX5_0R" />Right</label>
+            <label><input type="radio" name="Hinging_9" value="WX5_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_9" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_9" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_9" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_9" value="B" />Black</label>
+            <label><input type="radio" name="color_9" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">  
+    <div class="box">
+      <div class="blue">
+        <img src="images/17SX5.0-mount.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>SX 5.0 Surface Mount Safe</h2>
+        <p>
+          The SX 5.0 is designed for hotels requiring wall safes large 
+          enough to accommodate a 17” laptop. This surface mount safe is a 
+          great fit for hotels going through a renovation where minimaul cost 
+          and disruption is a must as the SX 5.0 quickly fastens to sheetrock and/or existing studs.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_10" value="SX5_0R" />Right</label>
+            <label><input type="radio" name="Hinging_10" value="SX5_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_10" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_10" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_10" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_10" value="B" />Black</label>
+            <label><input type="radio" name="color_10" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+    </div><!--end bluetext-->
+  </div><!--end box-->
+  <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+  <div class="box">
+    <div class="blue">
+      <img src="images/17B5.0-briefcase.jpg" alt="">
+    </div>
+    <div class="bluetext">
+      <h2>B 5.0 Briefcase Safe</h2>
+      <p>
+        Free standing and spacious, the B 5.0 safe offers plenty 
+        of room for laptops, briefcases, purses, cameras, and much more. 
+        This larger footprint can be utilized in guest rooms or the back 
+        office and operates with Safemark’s user-friendly, illuminated keypad.
+      </p>
+    <br>
+      <form class="select">
+        <div class="heading">
+          <h3>Select Safe Hinging</h3> 
+          <label><input type="radio" name="Hinging_11" value="B5_0F" />Front</label>
+        </div><!--end heading-->
+    <br>
+        <div class="heading1">
+          <h3>Select Safe Locker</h3> 
+          <label><input type="radio" name="locker_11" value="M" />MIWA</label>
+        </div><!--end heading1-->
+      </form>
+    <br>
+      <form class="select1">
+        <div class="heading2">
+          <h3>Select Safe Color</h3> 
+          <label><input type="radio" name="color_11" value="B" />Black</label>
+        </div><!--end heading2-->
+      </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+    </div><!--end bluetext-->
+  </div><!--end box-->
+  </main>
+  </div><!--end style div-->
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "safes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irinasosu/safes.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"irinasosu\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irinasosu/safes/issues"
+  },
+  "homepage": "https://github.com/irinasosu/safes#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^3.5.1"
+  }
+}

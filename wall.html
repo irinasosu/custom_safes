@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>In-Room Safes</title>
+  <meta name="description" content="Select a custom safe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="wall.css">
+  <script src="safe-choise.js"></script>
+</head>
+<body>
+  <header id="mainheader">
+    <div id="container">
+      <img src="images/Safemark_Logo_TM.png" alt="">
+    </div>
+    <div id="container1">
+      <div class="parent">
+        <img id="image1" src="images/Secure-Banner3-1920x671-1.jpg" height="400" width="100%" alt="">
+        <img id="image2" src="images/cropped-logo-1.png" alt="">
+      </div>
+    </div><!--end container1-->
+  </header><!--end mainheader-->
+  <div style="width: 100%; margin-left: auto; margin-right: auto; margin-bottom: 30px;">
+  <main>
+    <div class="menu">
+      <h2>Wall Safes</h2>
+    </div>
+    <hr style="width:15%; height: 2px; border: none; background-color: rgba(255, 166, 0, 0.521);float: left; margin-left: 20px;">
+    <br>
+    <div class="article">
+      <p>
+        Wall safes provide hotels with a unique alternative to the 
+        standard guest room safe. Our portfolio of wall safes includes 
+        both surface mount and in wall designs and each is available in 15” and 17” laptop sizes.
+      </p>
+    </div ><!--end article-->
+    <br>
+    <div class="box">
+      <div class="blue">
+        <img src="images/wall safes/15W5.0-in-wall.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>W 5.0 In-Wall Safe</h2>
+        <p>
+          The W 5.0 in-wall safe is often located in the hotel room closet 
+          for guests to easily secure 15″ laptops and more. Designed to install 
+          between standard 16″ on-center studs, the W 5.0 occupies the cavity 
+          inside the wall while the built-in flange covers rough cuts to provide a finished look.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_14" value="WW5_0R" />Right</label>
+            <label><input type="radio" name="Hinging_14" value="WW5_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_14" value="M" /">MIWA</label>
+            <label ><input type="radio" name="locker_14" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_14" value="B" />Black</label>
+            <label><input type="radio" name="color_14" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/WALLWX5.0.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>WX 5.0 Electronic In-Wall Safe</h2>
+        <p>
+          Safemark’s WX 5.0 in-wall safe provides hotel guests 
+          with peace of mind while maintaining a small footprint in your 
+          closet or guest room. Designed to install between standard 16″ 
+          on-center studs, the WX 5.0 will occupy the cavity inside the guest 
+          room wall. The safe provides ample space for guests to secure their 
+          17” laptops plus cameras, purses and other valuables. With a clean 
+          installation in mind, our built-in flange will cover rough cuts and 
+          eliminate unnecessary re-plastering.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio"  name="Hinging_15" value="WWX5_0R" />Right</label>
+            <label><input type="radio" name="Hinging_15" value="WWX5_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_15" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_15" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_15" value="B" />Black</label>
+            <label><input type="radio" name="color_15" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/WALLSX5.0.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>SX 5.0 Electronic Surface Mount Wall Safe</h2>
+        <p>
+          The SX 5.0 was designed for hotels requiring wall safe 
+          large enough to accommodate a 17” laptop. Perfect for 
+          renovation properties looking for minimal disruption, 
+          this surface mount safe will quickly fasten to sheetrock 
+          and/or existing studs. We highly recommend backing be included 
+          between existing studs for extra security.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_16" value="WSX5_0R" />Right</label>
+            <label><input type="radio" name="Hinging_16" value="WSX5_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label ><input type="radio" name="locker_16" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_16" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_16" value="B" />Black</label>
+            <label><input type="radio" name="color_16" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+  </main>
+  </div><!--end style div-->
+</body>
+</html>

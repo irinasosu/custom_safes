@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>In-Room Safes</title>
+  <meta name="description" content="Select a custom safe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="15inch.css">
+  <script src="safe-choise.js"></script> 
+</head>
+<body>
+  <header id="mainheader">
+    <div id="container">
+      <img src="images/Safemark_Logo_TM.png" alt="">
+    </div>
+    <div id="container1">
+      <div class="parent">
+        <img id="image1" src="images/Secure-Banner3-1920x671-1.jpg" height="400" width="100%" alt="">
+        <img id="image2" src="images/cropped-logo-1.png" alt="">
+      </div>
+    </div><!--end container1-->
+  </header><!--end mainheader-->
+  <div style="width: 100%; margin-left: auto; margin-right: auto; margin-bottom: 30px;">
+  <main>
+    <div class="menu">
+      <h2>15" LAPTOP SAFES</h2>
+    </div>
+    <hr style="width:15%; height: 2px; border: none; background-color: rgba(255, 166, 0, 0.521);float: left; margin-left: 20px;">
+    <br>
+    <div class="article">
+      <p>
+        Safemark’s 15” laptop safes were designed with today’s
+        hotel guest in mind. Large enough to accommodate a 15” laptop,
+        plus ample space for purses, cameras, tablets, cell phones,
+        and many other travel accessories.
+      </p>
+    </div ><!--end article-->
+    <br>
+    <div class="box">
+      <div class="blue">
+        <img src="images/15M5.1-blue.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>M 5.1 Formula Blue™ Guest Room Safe</h2>
+        <p>
+          Holiday Inn Express® has selected Safemark’s M 5.1 guest room safe
+          as the brand standard for all new construction, conversion and
+          renovation properties (including those with a PIP). Customized 
+          to match the Formula Blue™ branding, the M 5.1 is available with
+          an optional color matched pedestal for placement within the guest 
+          room closet.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging" value="M5B_1BR"  />Right</label>
+            <label><input type="radio" name="Hinging" value="M5B_1BL" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker" value="M"  />MIWA</label>
+            <label><input type="radio" name="locker" value="C" />Cobra</label>
+            <label><input type="radio" name="locker" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div>
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <br>
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/15M5.1-black.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>M 5.1 Guest Room Safe</h2>
+        <p>
+          If space is a concern, look to our M 5.1 as your in-room safe
+          solution. The M 5.1 incorporates the same durable construction
+          as our larger safes, but is designed to fit into tight closets
+          and small guest rooms. This particular safe is popular in hotels
+          needing a wider, yet not so deep solution for closet shelves.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio"  name="Hinging_1" value="M5_1R" />Right</label>
+            <label><input type="radio"  name="Hinging_1" value="M5_1L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio"  name="locker_1" value="M1" />MIWA</label>
+            <label><input type="radio"  name="locker_1" value="C1" />Cobra</label>
+            <label><input type="radio" name="locker_1" value="N1" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_1" value="B" />Black</label>
+            <label><input type="radio" name="color_1" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+    <br>
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div>
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/15AN5.3-twotone.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>AN 5.3 Guest Room Safe</h2>
+        <p>
+          A popular model amongst several hotel brands, the AN 5.3 
+          is often found in either all black or a two-tone finish with 
+          a gray body and black door. Rounding out the thoughtful construction 
+          is an integrated keypad that is both tilted and illuminated for easy viewing.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_2" value="AN5_3R" />Right</label>
+            <label><input type="radio" name="Hinging_2" value="AN5_3L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_2" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_2" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_2" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_2" value="B" />Black</label>
+            <label><input type="radio" name="color_2" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+    <div class="box">
+      <div class="blue">
+        <img src="images/T4.0-519x500.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>T 4.0 Guest Room Safe</h2>
+        <p>
+          Compact, rugged and affordable, Safemark’s Tribute series 
+          affirms that good things come in small packages. Built for 
+          today’s popular electronic companions, the T 4.0 is designed to easily 
+          accommodate tablets, smart phones, 15” laptops and more.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_3" value="T4_0R" />Right</label>
+            <label><input type="radio" name="Hinging_3" value="T4_0L" />Left</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_3" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_3" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_3" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_3" value="B" />Black</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+    <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">  
+    <div class="box">
+      <div class="blue">
+        <img src="images/15DN5.4.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>DN 5.4 Drawer Safe</h2>
+        <p>
+          The DN 5.4 drawer safe provides the ultimate in guest room security 
+          in a unique, space saving design. Typically situated in a credenza or 
+          near the desk, the drawer safe allows quick access for guests to secure 
+          their valuables. Large enough to accommodate a 15” laptop, the safe features 
+          a hydraulic lift arm for easy use.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_4" value="DN5_4F" />Top</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_4" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_4" value="C" />Cobra</label>
+            <label><input type="radio" name="locker_4" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_4" value="B" />Black</label>
+            <label><input type="radio" name="color_4" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+    </div><!--end bluetext-->
+  </div><!--end box-->
+  <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+  <div class="box">
+    <div class="blue">
+      <img src="images/wall safes/15W5.0-in-wall.jpg" alt="">
+    </div>
+    <div class="bluetext">
+      <h2>W 5.0 In-Wall Safe</h2>
+      <p>
+        The W 5.0 in-wall safe is often located in the hotel room closet 
+        for guests to easily secure 15″ laptops and more. Designed to install 
+        between standard 16″ on-center studs, the W 5.0 occupies the cavity 
+        inside the wall while the built-in flange covers rough cuts to provide a finished look.
+      </p>
+    <br>
+      <form class="select">
+        <div class="heading">
+          <h3>Select Safe Hinging</h3> 
+          <label><input type="radio" name="Hinging_5" value="W5_0R" />Right</label>
+          <label><input type="radio" name="Hinging_5" value="W5_0L" />Left</label>
+        </div><!--end heading-->
+    <br>
+        <div class="heading1">
+          <h3>Select Safe Locker</h3> 
+          <label><input type="radio" name="locker_5" value="M" /">MIWA</label>
+          <label><input type="radio" name="locker_5" value="C" />Cobra</label>
+          <label><input type="radio" name="locker_5" value="N" />None</label>
+        </div><!--end heading1-->
+      </form>
+    <br>
+      <form class="select1">
+        <div class="heading2">
+          <h3>Select Safe Color</h3> 
+          <label><input type="radio" name="color_5" value="B" />Black</label>
+          <label><input type="radio" name="color_5" value="W" />Brilliant White</label>
+        </div><!--end heading2-->
+      </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+    </div><!--end bluetext-->
+  </div><!--end box-->
+  </main>
+  </div><!--end style div-->
+</body>
+</html>

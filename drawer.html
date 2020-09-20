@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>In-Room Safes</title>
+    <meta name="description" content="Select a custom safe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="drawer.css">
+    <script src="safe-choise.js"></script>
+</head>
+<body>
+  <header id="mainheader">
+    <div id="container">
+      <img src="images/Safemark_Logo_TM.png" alt="">
+    </div>
+    <div id="container1">
+      <div class="parent">
+        <img id="image1" src="images/Secure-Banner3-1920x671-1.jpg" height="400" width="100%" alt="">
+        <img id="image2" src="images/cropped-logo-1.png" alt="">
+      </div>
+    </div><!--end container1-->
+  </header><!--end mainheader-->
+  <div style="width: 100%; margin-left: auto; margin-right: auto;">
+  <main>
+    <div class="menu">
+      <h2>Drawer Safes</h2>
+    </div>
+    <hr style="width:15%; height: 2px; border: none; background-color: rgba(255, 166, 0, 0.521);float: left; margin-left: 20px;">
+    <br>
+    <div class="article">
+      <p>
+        Safemark’s drawer safes are designed to accommodate the 
+        evolving guest room credenzas. Several options are available 
+        including pull drawers and those with hydraulic arms.
+      </p>
+    </div ><!--end article-->
+    <br>
+    <div class="box">
+      <div class="blue">
+        <img src="images/15DN5.4.jpg" alt="">
+      </div>
+      <div class="bluetext">
+        <h2>DN 5.4 Drawer Safe</h2>
+        <p>
+          The DN 5.4 drawer safe provides the ultimate in guest room security 
+          in a unique, space saving design. Typically situated in a credenza or 
+          near the desk, the drawer safe allows quick access for guests to secure 
+          their valuables. Large enough to accommodate a 15” laptop, the safe features 
+          a hydraulic lift arm for easy use.
+        </p>
+    <br>
+        <form class="select">
+          <div class="heading">
+            <h3>Select Safe Hinging</h3> 
+            <label><input type="radio" name="Hinging_12" value="DDN5_4F" />Top</label>
+          </div><!--end heading-->
+    <br>
+          <div class="heading1">
+            <h3>Select Safe Locker</h3> 
+            <label><input type="radio" name="locker_12" value="M" />MIWA</label>
+            <label><input type="radio" name="locker_12" value="N" />None</label>
+          </div><!--end heading1-->
+        </form>
+    <br>
+        <form class="select1">
+          <div class="heading2">
+            <h3>Select Safe Color</h3> 
+            <label><input type="radio" name="color_12" value="B" />Black</label>
+            <label><input type="radio" name="color_12" value="W" />Brilliant White</label>
+          </div><!--end heading2-->
+        </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+    </div><!--end bluetext-->
+  </div><!--end box-->
+  <hr style="width:90%; height: 1.5px; border: none; background-color: rgba(60, 60, 80, 0.185); text-align: center;">
+  <div class="box">
+    <div class="blue">
+      <img src="images/17DP5.3.jpg" alt="">
+    </div>
+    <div class="bluetext">
+      <h2>DP 5.3 Drawer Pull-Safe</h2>
+      <p>
+        Designed for case good installations, Safemark’s 
+        Drawer-Pullout DP 5.3 provides the ultimate guest experience 
+        with advanced glides for effortless use. Your guests will 
+        have quick, top access to their valuables along with an integrated 
+        keypad that is both tilted and illuminated for easy viewing.
+      </p>
+    <br>
+      <form class="select">
+        <div class="heading">
+          <h3>Select Safe Hinging</h3> 
+          <label><input type="radio" name="Hinging_13" value="DDP5_3F" />Top</label>
+        </div><!--end heading-->
+    <br>
+        <div class="heading1">
+          <h3>Select Safe Locker</h3> 
+          <label><input type="radio" name="locker_13" value="M" />MIWA</label>
+          <label><input type="radio" name="locker_13" value="N" />None</label>
+        </div><!--end heading1-->
+      </form>
+    <br>
+      <form class="select1">
+        <div class="heading2">
+          <h3>Select Safe Color</h3> 
+          <label><input type="radio" name="color_13" value="B" />Black</label>
+          <label><input type="radio" name="color_13" value="W" />Brilliant White</label>
+        </div><!--end heading2-->
+      </form>
+    <button type="button" class="button" onclick="displaySafeSelected()">Submit</button>
+    <br>
+    <div id="result"></div> 
+      </div><!--end bluetext-->
+    </div><!--end box-->
+  </main>
+  </div><!--end style div-->
+</body>
+</html>
